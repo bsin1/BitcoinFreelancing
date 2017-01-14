@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B9A88D49AC3FB94B49A16EFE /* Pods_BitcoinFreelancing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E59BC7CD5145324C21330A /* Pods_BitcoinFreelancing.framework */; };
+		F996E02F1E2A9E1900BE0A0B /* CreateContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996E02E1E2A9E1900BE0A0B /* CreateContractViewController.swift */; };
+		F996E0311E2AA24E00BE0A0B /* ConfirmContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996E0301E2AA24E00BE0A0B /* ConfirmContractViewController.swift */; };
+		F996E0331E2AA26D00BE0A0B /* DeveloperReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996E0321E2AA26D00BE0A0B /* DeveloperReviewViewController.swift */; };
 		F9FC74D51E2A9228002A7213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC74D41E2A9228002A7213 /* AppDelegate.swift */; };
 		F9FC74D71E2A9228002A7213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC74D61E2A9228002A7213 /* ViewController.swift */; };
 		F9FC74DA1E2A9228002A7213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FC74D81E2A9228002A7213 /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 		67399613BBD1AE28D22B3F32 /* Pods-BitcoinFreelancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinFreelancing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinFreelancing/Pods-BitcoinFreelancing.debug.xcconfig"; sourceTree = "<group>"; };
 		A089591464C762E39CCED235 /* Pods_BitcoinFreelancingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinFreelancingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7ED520C1EBBB09A34DD2E79 /* Pods-BitcoinFreelancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinFreelancing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinFreelancing/Pods-BitcoinFreelancing.release.xcconfig"; sourceTree = "<group>"; };
+		F996E02E1E2A9E1900BE0A0B /* CreateContractViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateContractViewController.swift; sourceTree = "<group>"; };
+		F996E0301E2AA24E00BE0A0B /* ConfirmContractViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmContractViewController.swift; sourceTree = "<group>"; };
+		F996E0321E2AA26D00BE0A0B /* DeveloperReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperReviewViewController.swift; sourceTree = "<group>"; };
 		F9FC74D11E2A9228002A7213 /* BitcoinFreelancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinFreelancing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FC74D41E2A9228002A7213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9FC74D61E2A9228002A7213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F996E02D1E2A988500BE0A0B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9FC74D61E2A9228002A7213 /* ViewController.swift */,
+				F996E02E1E2A9E1900BE0A0B /* CreateContractViewController.swift */,
+				F996E0301E2AA24E00BE0A0B /* ConfirmContractViewController.swift */,
+				F996E0321E2AA26D00BE0A0B /* DeveloperReviewViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		F9FC74C81E2A9228002A7213 = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +142,8 @@
 		F9FC74D31E2A9228002A7213 /* BitcoinFreelancing */ = {
 			isa = PBXGroup;
 			children = (
+				F996E02D1E2A988500BE0A0B /* ViewControllers */,
 				F9FC74D41E2A9228002A7213 /* AppDelegate.swift */,
-				F9FC74D61E2A9228002A7213 /* ViewController.swift */,
 				F9FC74D81E2A9228002A7213 /* Main.storyboard */,
 				F9FC74DB1E2A9228002A7213 /* Assets.xcassets */,
 				F9FC74DD1E2A9228002A7213 /* LaunchScreen.storyboard */,
@@ -338,6 +355,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F996E02F1E2A9E1900BE0A0B /* CreateContractViewController.swift in Sources */,
+				F996E0311E2AA24E00BE0A0B /* ConfirmContractViewController.swift in Sources */,
+				F996E0331E2AA26D00BE0A0B /* DeveloperReviewViewController.swift in Sources */,
 				F9FC74D71E2A9228002A7213 /* ViewController.swift in Sources */,
 				F9FC74D51E2A9228002A7213 /* AppDelegate.swift in Sources */,
 			);
