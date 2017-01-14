@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9A88D49AC3FB94B49A16EFE /* Pods_BitcoinFreelancing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E59BC7CD5145324C21330A /* Pods_BitcoinFreelancing.framework */; };
 		F9FC74D51E2A9228002A7213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC74D41E2A9228002A7213 /* AppDelegate.swift */; };
 		F9FC74D71E2A9228002A7213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC74D61E2A9228002A7213 /* ViewController.swift */; };
 		F9FC74DA1E2A9228002A7213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FC74D81E2A9228002A7213 /* Main.storyboard */; };
@@ -34,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41E59BC7CD5145324C21330A /* Pods_BitcoinFreelancing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinFreelancing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B81DB07DDB9E1FDDC59F1A6 /* Pods_BitcoinFreelancingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinFreelancingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67399613BBD1AE28D22B3F32 /* Pods-BitcoinFreelancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinFreelancing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinFreelancing/Pods-BitcoinFreelancing.debug.xcconfig"; sourceTree = "<group>"; };
+		A089591464C762E39CCED235 /* Pods_BitcoinFreelancingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinFreelancingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7ED520C1EBBB09A34DD2E79 /* Pods-BitcoinFreelancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinFreelancing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinFreelancing/Pods-BitcoinFreelancing.release.xcconfig"; sourceTree = "<group>"; };
 		F9FC74D11E2A9228002A7213 /* BitcoinFreelancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinFreelancing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FC74D41E2A9228002A7213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9FC74D61E2A9228002A7213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A88D49AC3FB94B49A16EFE /* Pods_BitcoinFreelancing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE4476ABD6AE0FED67069715 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E59BC7CD5145324C21330A /* Pods_BitcoinFreelancing.framework */,
+				4B81DB07DDB9E1FDDC59F1A6 /* Pods_BitcoinFreelancingTests.framework */,
+				A089591464C762E39CCED235 /* Pods_BitcoinFreelancingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8E16CAC624165107746E6BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67399613BBD1AE28D22B3F32 /* Pods-BitcoinFreelancing.debug.xcconfig */,
+				C7ED520C1EBBB09A34DD2E79 /* Pods-BitcoinFreelancing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F9FC74C81E2A9228002A7213 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				F9FC74E81E2A9228002A7213 /* BitcoinFreelancingTests */,
 				F9FC74F31E2A9228002A7213 /* BitcoinFreelancingUITests */,
 				F9FC74D21E2A9228002A7213 /* Products */,
+				F8E16CAC624165107746E6BC /* Pods */,
+				BE4476ABD6AE0FED67069715 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9FC74F91E2A9228002A7213 /* Build configuration list for PBXNativeTarget "BitcoinFreelancing" */;
 			buildPhases = (
+				8C33D1629F3F8532E3B716BD /* [CP] Check Pods Manifest.lock */,
 				F9FC74CD1E2A9228002A7213 /* Sources */,
 				F9FC74CE1E2A9228002A7213 /* Frameworks */,
 				F9FC74CF1E2A9228002A7213 /* Resources */,
+				E7B0CBCA26DDA261C06BC586 /* [CP] Embed Pods Frameworks */,
+				41F568EDAB06B1181E164654 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +284,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41F568EDAB06B1181E164654 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinFreelancing/Pods-BitcoinFreelancing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C33D1629F3F8532E3B716BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B0CBCA26DDA261C06BC586 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinFreelancing/Pods-BitcoinFreelancing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9FC74CD1E2A9228002A7213 /* Sources */ = {
@@ -408,6 +487,7 @@
 		};
 		F9FC74FA1E2A9228002A7213 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67399613BBD1AE28D22B3F32 /* Pods-BitcoinFreelancing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BitcoinFreelancing/Info.plist;
@@ -420,6 +500,7 @@
 		};
 		F9FC74FB1E2A9228002A7213 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7ED520C1EBBB09A34DD2E79 /* Pods-BitcoinFreelancing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BitcoinFreelancing/Info.plist;
@@ -503,6 +584,7 @@
 				F9FC74FB1E2A9228002A7213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9FC74FC1E2A9228002A7213 /* Build configuration list for PBXNativeTarget "BitcoinFreelancingTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +593,7 @@
 				F9FC74FE1E2A9228002A7213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9FC74FF1E2A9228002A7213 /* Build configuration list for PBXNativeTarget "BitcoinFreelancingUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +602,7 @@
 				F9FC75011E2A9228002A7213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
