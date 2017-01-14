@@ -11,6 +11,8 @@
 		F996E02F1E2A9E1900BE0A0B /* CreateContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996E02E1E2A9E1900BE0A0B /* CreateContractViewController.swift */; };
 		F996E0311E2AA24E00BE0A0B /* ConfirmContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996E0301E2AA24E00BE0A0B /* ConfirmContractViewController.swift */; };
 		F996E0331E2AA26D00BE0A0B /* DeveloperReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996E0321E2AA26D00BE0A0B /* DeveloperReviewViewController.swift */; };
+		F996E0351E2AB70300BE0A0B /* SummaryOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996E0341E2AB70300BE0A0B /* SummaryOverlayViewController.swift */; };
+		F996E0381E2ABA7600BE0A0B /* SummaryOverlayPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996E0371E2ABA7600BE0A0B /* SummaryOverlayPresentationController.swift */; };
 		F9FC74D51E2A9228002A7213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC74D41E2A9228002A7213 /* AppDelegate.swift */; };
 		F9FC74D71E2A9228002A7213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC74D61E2A9228002A7213 /* ViewController.swift */; };
 		F9FC74DA1E2A9228002A7213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FC74D81E2A9228002A7213 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		F996E02E1E2A9E1900BE0A0B /* CreateContractViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateContractViewController.swift; sourceTree = "<group>"; };
 		F996E0301E2AA24E00BE0A0B /* ConfirmContractViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmContractViewController.swift; sourceTree = "<group>"; };
 		F996E0321E2AA26D00BE0A0B /* DeveloperReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperReviewViewController.swift; sourceTree = "<group>"; };
+		F996E0341E2AB70300BE0A0B /* SummaryOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryOverlayViewController.swift; sourceTree = "<group>"; };
+		F996E0371E2ABA7600BE0A0B /* SummaryOverlayPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryOverlayPresentationController.swift; sourceTree = "<group>"; };
 		F9FC74D11E2A9228002A7213 /* BitcoinFreelancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinFreelancing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FC74D41E2A9228002A7213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9FC74D61E2A9228002A7213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,8 +117,17 @@
 				F996E02E1E2A9E1900BE0A0B /* CreateContractViewController.swift */,
 				F996E0301E2AA24E00BE0A0B /* ConfirmContractViewController.swift */,
 				F996E0321E2AA26D00BE0A0B /* DeveloperReviewViewController.swift */,
+				F996E0341E2AB70300BE0A0B /* SummaryOverlayViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F996E0361E2ABA4900BE0A0B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F996E0371E2ABA7600BE0A0B /* SummaryOverlayPresentationController.swift */,
+			);
+			name = Animations;
 			sourceTree = "<group>";
 		};
 		F9FC74C81E2A9228002A7213 = {
@@ -142,6 +155,7 @@
 		F9FC74D31E2A9228002A7213 /* BitcoinFreelancing */ = {
 			isa = PBXGroup;
 			children = (
+				F996E0361E2ABA4900BE0A0B /* Animations */,
 				F996E02D1E2A988500BE0A0B /* ViewControllers */,
 				F9FC74D41E2A9228002A7213 /* AppDelegate.swift */,
 				F9FC74D81E2A9228002A7213 /* Main.storyboard */,
@@ -241,6 +255,7 @@
 				TargetAttributes = {
 					F9FC74D01E2A9228002A7213 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7JQM8M6QG2;
 						ProvisioningStyle = Automatic;
 					};
 					F9FC74E41E2A9228002A7213 = {
@@ -358,7 +373,9 @@
 				F996E02F1E2A9E1900BE0A0B /* CreateContractViewController.swift in Sources */,
 				F996E0311E2AA24E00BE0A0B /* ConfirmContractViewController.swift in Sources */,
 				F996E0331E2AA26D00BE0A0B /* DeveloperReviewViewController.swift in Sources */,
+				F996E0351E2AB70300BE0A0B /* SummaryOverlayViewController.swift in Sources */,
 				F9FC74D71E2A9228002A7213 /* ViewController.swift in Sources */,
+				F996E0381E2ABA7600BE0A0B /* SummaryOverlayPresentationController.swift in Sources */,
 				F9FC74D51E2A9228002A7213 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +527,7 @@
 			baseConfigurationReference = 67399613BBD1AE28D22B3F32 /* Pods-BitcoinFreelancing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JQM8M6QG2;
 				INFOPLIST_FILE = BitcoinFreelancing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SetOcean.BitcoinFreelancing;
@@ -523,6 +541,7 @@
 			baseConfigurationReference = C7ED520C1EBBB09A34DD2E79 /* Pods-BitcoinFreelancing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JQM8M6QG2;
 				INFOPLIST_FILE = BitcoinFreelancing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SetOcean.BitcoinFreelancing;
